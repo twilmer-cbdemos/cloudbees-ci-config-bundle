@@ -18,9 +18,9 @@ unclassified:
           scm:
             github:
               credentialsId: "github-sa"
-              repoOwner: "REPLACE_GITHUB_ORG"
+              repoOwner: "twilmer-cbdemos"
               repository: "pipeline-library"
 
 groovy:
-  - url: https://raw.githubusercontent.com/REPLACE_GITHUB_ORG/cloudbees-ci-config-bundle/main/groovy/create-pipeline-template-catalog.groovy
-  - url: https://raw.githubusercontent.com/REPLACE_GITHUB_ORG/cloudbees-ci-config-bundle/main/groovy/create-unhibernate-job.groovy
+  - url: https://raw.githubusercontent.com/twilmer-cbdemos/cloudbees-ci-config-bundle/main/groovy/create-pipeline-template-catalog.groovy
+  - url: https://raw.githubusercontent.com/twilmer-cbdemos/cloudbees-ci-config-bundle/main/groovy/create-unhibernate-job.groovy
